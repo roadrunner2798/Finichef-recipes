@@ -197,11 +197,11 @@ const AppComponent = () => {
     <Container>
       <Header>
         <AppName>
-          <RecipeImage src="/react-recipe-finder/Logo.png" />
+          <RecipeImage src="/public/react-recipe-finder/Logo.png" />
           Finichef
         </AppName>
         <SearchBox>
-          <SearchIcon src="/react-recipe-finder/search-icon.svg" />
+          <SearchIcon src="/public/react-recipe-finder/search-icon.svg" />
           <SearchInput
             placeholder="Search Recipe"
             value={searchQuery}
@@ -215,7 +215,7 @@ const AppComponent = () => {
             <RecipeComponent key={index} recipe={recipe.recipe} />
           ))
         ) : (
-          <Placeholder height="200px" src="/react-recipe-finder/Main-page-logo.png" />
+          <Placeholder height="200px" src="/public/react-recipe-finder/Main-page-logo.png" />
         )}
       </RecipeListContainer>
     </Container>
